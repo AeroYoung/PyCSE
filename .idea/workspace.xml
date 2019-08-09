@@ -2,12 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd84bec0-c4ea-4b43-829e-abcae10de978" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/civil/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/civil/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/civil/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/civil/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/civil/apps.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/civil/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/civil/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/civil/static/civil/css/sb-admin.css" beforeDir="false" afterPath="$PROJECT_DIR$/civil/static/civil/css/sb-admin.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/civil/static/civil/js/demo/datatables-demo.js" beforeDir="false" afterPath="$PROJECT_DIR$/civil/static/civil/js/demo/datatables-demo.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/civil/templates/civil/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/civil/templates/civil/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/civil/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/civil/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/urls.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -130,7 +133,7 @@
       <workItem from="1564990724501" duration="7562000" />
       <workItem from="1565052060638" duration="54326000" />
       <workItem from="1565171510853" duration="38028000" />
-      <workItem from="1565311130106" duration="17896000" />
+      <workItem from="1565311130106" duration="25168000" />
     </task>
     <task id="LOCAL-00001">
       <created>1565171640993</created>
@@ -160,7 +163,14 @@
       <option name="project" value="LOCAL" />
       <updated>1565311711379</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="workspace">
+      <created>1565335264830</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1565335264830</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -36,4 +36,4 @@ class PracticeAdmin(admin.ModelAdmin):
     list_filter = ['topic__category__category_name', 'topic__topic_name']
 
 
-admin.register(PracticeStatistic)
+admin.site.register(PracticeStatistic)

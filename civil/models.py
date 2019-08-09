@@ -56,6 +56,12 @@ class Topic(models.Model):
     def total_score(self):
         return round(self.single_score * self.topic_num, 1)
 
+    def rated_time_span(self):
+        return floor(self.total_score() * Practice.SCORE_PER_MIN)
+
+    rated_time_span.admin_order_field = 'practice_num'
+    rated_time_span.short_description = '额定耗时'
+
     total_score.admin_order_field = 'single_score'
     total_score.short_description = '总分'
 
@@ -195,27 +201,35 @@ class Practice(models.Model):
 
 
 class PracticeStatistic(models.Model):
-
     user = models.ForeignKey(User, on_delete=models.CASCADE, verbose_name='做题人')
     topic = models.ForeignKey(Topic, on_delete=models.CASCADE)
 
     def total_num(self):
         total = self.user.practice_set.filter(topic=self.topic).aggregate(nums=Sum('practice_num'))
-        return total['nums']
+        if total['nums'] is None:
+            return 0.0
+        else:
+            return total['nums']
 
     total_num.admin_order_field = 'topic'
     total_num.short_description = '题量'
 
     def total_time(self):
         total = self.user.practice_set.filter(topic=self.topic).aggregate(nums=Sum('time_span'))
-        return total['nums']
+        if total['nums'] is None:
+            return 0.0
+        else:
+            return total['nums']
 
     total_time.admin_order_field = 'topic'
     total_time.short_description = '耗时'
 
     def total_error_num(self):
         total = self.user.practice_set.filter(topic=self.topic).aggregate(nums=Sum('error_num'))
-        return total['nums']
+        if total['nums'] is None:
+            return 0.0
+        else:
+            return total['nums']
 
     total_error_num.admin_order_field = 'topic'
     total_error_num.short_description = '错误'
@@ -273,7 +287,11 @@ class PracticeStatistic(models.Model):
     score.short_description = '得分(额定耗时)'
 
     def probability_without_time(self):
-        return self.score_without_time() / self.total_score()
+        total_score = self.total_score()
+        if total_score != 0:
+            return self.score_without_time() / self.total_score()
+        else:
+            return 0.0
 
     def probability_without_time_str(self):
         return "%.2f%%" % (self.probability_without_time() * 100)
@@ -282,7 +300,11 @@ class PracticeStatistic(models.Model):
     probability_without_time_str.short_description = '得分率(忽略超时)'
 
     def probability(self):
-        return self.score() / self.total_score()
+        total_score = self.total_score()
+        if total_score != 0:
+            return self.score() / self.total_score()
+        else:
+            return 0.0
 
     def probability_str(self):
         return "%.2f%%" % (self.probability() * 100)
@@ -291,7 +313,11 @@ class PracticeStatistic(models.Model):
     probability_str.short_description = '得分率(额定耗时)'
 
     def error_probability(self):
-        return self.total_error_num() / self.total_num()
+        total_num = self.total_num()
+        if total_num != 0:
+            return self.total_error_num() / self.total_num()
+        else:
+            return 0.0
 
     def error_probability_str(self):
         return "%.2f%%" % (self.error_probability() * 100)
