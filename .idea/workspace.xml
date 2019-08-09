@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bd84bec0-c4ea-4b43-829e-abcae10de978" name="Default Changelist" comment="" />
+    <list default="true" id="bd84bec0-c4ea-4b43-829e-abcae10de978" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/civil/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/civil/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/civil/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/civil/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/civil/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/civil/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/civil/templates/civil/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/civil/templates/civil/index.html" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +59,7 @@
     <ConfirmationsSetting value="2" id="Remove" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -122,7 +130,7 @@
       <workItem from="1564990724501" duration="7562000" />
       <workItem from="1565052060638" duration="54326000" />
       <workItem from="1565171510853" duration="38028000" />
-      <workItem from="1565311130106" duration="560000" />
+      <workItem from="1565311130106" duration="17896000" />
     </task>
     <task id="LOCAL-00001">
       <created>1565171640993</created>
@@ -145,13 +153,64 @@
       <option name="project" value="LOCAL" />
       <updated>1565225466806</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="workspace">
+      <created>1565311711379</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1565311711379</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="master" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/master" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="workspace" />
+    <option name="LAST_COMMIT_MESSAGE" value="workspace" />
   </component>
 </project>

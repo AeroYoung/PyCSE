@@ -6,6 +6,9 @@ __pycache__/
 # C extensions
 *.so
 
+.idea
+db.splite3
+
 # Distribution / packaging
 .Python
 build/
