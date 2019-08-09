@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bd84bec0-c4ea-4b43-829e-abcae10de978" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/users/templatetags" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/users/templatetags/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/templatetags/template.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yAdmin" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/yAdmin/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yAdmin/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yAdmin/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yAdmin/migrations" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/yAdmin/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yAdmin/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yAdmin/static" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/yAdmin/static/yAdmin" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/yAdmin/static/yAdmin/css" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/yAdmin/static/yAdmin/css/sb-admin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yAdmin/static/yAdmin/css/sb-admin.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yAdmin/static/yAdmin/js" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/yAdmin/static/yAdmin/js/demo" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/yAdmin/static/yAdmin/js/demo/chart-area-demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yAdmin/static/yAdmin/js/demo/chart-bar-demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yAdmin/static/yAdmin/js/demo/chart-pie-demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yAdmin/static/yAdmin/js/demo/datatables-demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yAdmin/static/yAdmin/js/sb-admin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yAdmin/static/yAdmin/js/sb-admin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yAdmin/static/yAdmin/scss" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/yAdmin/static/yAdmin/scss/_cards.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yAdmin/static/yAdmin/scss/_footer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yAdmin/static/yAdmin/scss/_global.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yAdmin/static/yAdmin/scss/_login.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yAdmin/static/yAdmin/scss/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yAdmin/static/yAdmin/scss/_navbar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yAdmin/static/yAdmin/scss/_utilities.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yAdmin/static/yAdmin/scss/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yAdmin/static/yAdmin/scss/sb-admin.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yAdmin/templates" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/yAdmin/templates/yAdmin" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/yAdmin/templates/yAdmin/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yAdmin/templates/yAdmin/blank.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yAdmin/templates/yAdmin/charts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yAdmin/templates/yAdmin/forgot-password.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yAdmin/templates/yAdmin/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yAdmin/templates/yAdmin/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yAdmin/templates/yAdmin/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yAdmin/templates/yAdmin/tables.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yAdmin/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yAdmin/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/polls/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/polls/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates" beforeDir="true" />
+      <change beforePath="$PROJECT_DIR$/users/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/templates/registration/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/users/templates/registration/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yAdmin/static/yAdmin/vendor/fontawesome-free/webfonts/fa-brands-400.eot" beforeDir="false" afterPath="$PROJECT_DIR$/yAdmin/static/yAdmin/vendor/fontawesome-free/webfonts/fa-brands-400.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yAdmin/static/yAdmin/vendor/fontawesome-free/webfonts/fa-brands-400.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/yAdmin/static/yAdmin/vendor/fontawesome-free/webfonts/fa-brands-400.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yAdmin/static/yAdmin/vendor/fontawesome-free/webfonts/fa-brands-400.woff" beforeDir="false" afterPath="$PROJECT_DIR$/yAdmin/static/yAdmin/vendor/fontawesome-free/webfonts/fa-brands-400.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yAdmin/static/yAdmin/vendor/fontawesome-free/webfonts/fa-brands-400.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/yAdmin/static/yAdmin/vendor/fontawesome-free/webfonts/fa-brands-400.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yAdmin/static/yAdmin/vendor/fontawesome-free/webfonts/fa-regular-400.eot" beforeDir="false" afterPath="$PROJECT_DIR$/yAdmin/static/yAdmin/vendor/fontawesome-free/webfonts/fa-regular-400.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yAdmin/static/yAdmin/vendor/fontawesome-free/webfonts/fa-regular-400.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/yAdmin/static/yAdmin/vendor/fontawesome-free/webfonts/fa-regular-400.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yAdmin/static/yAdmin/vendor/fontawesome-free/webfonts/fa-regular-400.woff" beforeDir="false" afterPath="$PROJECT_DIR$/yAdmin/static/yAdmin/vendor/fontawesome-free/webfonts/fa-regular-400.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yAdmin/static/yAdmin/vendor/fontawesome-free/webfonts/fa-regular-400.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/yAdmin/static/yAdmin/vendor/fontawesome-free/webfonts/fa-regular-400.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yAdmin/static/yAdmin/vendor/fontawesome-free/webfonts/fa-solid-900.eot" beforeDir="false" afterPath="$PROJECT_DIR$/yAdmin/static/yAdmin/vendor/fontawesome-free/webfonts/fa-solid-900.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yAdmin/static/yAdmin/vendor/fontawesome-free/webfonts/fa-solid-900.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/yAdmin/static/yAdmin/vendor/fontawesome-free/webfonts/fa-solid-900.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yAdmin/static/yAdmin/vendor/fontawesome-free/webfonts/fa-solid-900.woff" beforeDir="false" afterPath="$PROJECT_DIR$/yAdmin/static/yAdmin/vendor/fontawesome-free/webfonts/fa-solid-900.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yAdmin/static/yAdmin/vendor/fontawesome-free/webfonts/fa-solid-900.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/yAdmin/static/yAdmin/vendor/fontawesome-free/webfonts/fa-solid-900.woff2" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db" type="feb32156:DbDataSourceImpl" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="mysite" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1OzqLcoU1hb7skAEod3yDMDkYcL" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+    <ConfirmationsSetting value="2" id="Remove" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\python\mysite\Rapid\static\Rapid" />
+      <recent name="D:\python\mysite\Rapid\templates\Rapid" />
+      <recent name="D:\python\mysite\users\templatetags" />
+      <recent name="D:\python\mysite\users\templates\users" />
+      <recent name="D:\python\mysite" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="mysite" type="Python.DjangoServer" factoryName="Django server">
+      <module name="mysite" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="mysite.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>C:\Users\yao.yang\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="SvnFileUrlMappingImpl">
+    <option name="myMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\python\mysite" />
+          <option name="myCopyRoot" value="D:\python\mysite" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+    <option name="myMoreRealMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\python\mysite" />
+          <option name="myCopyRoot" value="D:\python\mysite" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bd84bec0-c4ea-4b43-829e-abcae10de978" name="Default Changelist" comment="" />
+      <created>1564990717792</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1564990717792</updated>
+      <workItem from="1564990724501" duration="7562000" />
+      <workItem from="1565052060638" duration="54326000" />
+      <workItem from="1565171510853" duration="37314000" />
+    </task>
+    <task id="LOCAL-00001">
+      <created>1565171640993</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1565171640993</updated>
+    </task>
+    <task id="LOCAL-00002">
+      <created>1565171757608</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1565171757608</updated>
+    </task>
+    <task id="LOCAL-00003">
+      <created>1565225466806</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1565225466806</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
+</project>

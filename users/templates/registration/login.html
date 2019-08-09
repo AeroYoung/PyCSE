@@ -1,0 +1,71 @@
+{% load template %}
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="zh-Hans">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>登录</title>
+    <!-- Custom fonts for this template-->
+    <link href="https://cdn.bootcss.com/font-awesome/5.10.0-12/css/all.min.css" rel="stylesheet">
+    <!-- Custom styles for this template-->
+    <link href="{% static 'civil/css/sb-admin.css' %}" rel="stylesheet">
+
+</head>
+
+<body class="bg-dark">
+
+  <div class="container">
+    <div class="card card-login mx-auto mt-5">
+      <div class="card-header">登录</div>
+      <div class="card-body">
+        <form action="{% url 'login' %}" method="post">
+            {% csrf_token %}
+            {{ form.non_field_errors }}
+            {% for field in form %}
+                <div class="form-group">
+                    <div class="form-label-group">
+                        {{ field|widget_with_classes_placeholder:'form-control' }}
+                        {{ field|label_with_for:'' }}
+                    </div>
+                    {{ field.errors }}
+                    {% if field.help_text %}
+                        <p class="help text-small text-muted">{{ field.help_text|safe }}</p>
+                    {% endif %}
+                </div>
+            {% endfor %}
+
+            <div class="form-group">
+                <div class="checkbox">
+                  <label>
+                    <input type="checkbox" value="remember-me">
+                    记住密码
+                  </label>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">登录</button>
+            <input type="hidden" name="next" value="{{ next }}"/>
+        </form>
+        <div class="text-center">
+          <a class="d-block small mt-3" href="{% url 'users:register' %}">注册账号</a>
+          <a class="d-block small" href="{% url 'password_reset' %}">忘记密码?</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <!-- Bootstrap core JavaScript-->
+    <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/twitter-bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+    <!-- Core plugin JavaScript-->
+    <script src="https://cdn.bootcss.com/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+
+</body>
+
+</html>
