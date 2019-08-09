@@ -6,7 +6,6 @@
 <img src="https://travis-ci.org/laravel/framework.svg"> 
 <img alt="PyPI - Django Version" src="https://img.shields.io/pypi/djversions/djangorestframework?label=django&logo=django">
 <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/AeroYoung/PyCSE">
-<img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/w/AeroYoung/PyCSE">
 <img src="https://img.shields.io/apm/l/vim-mode.svg">
 
 </p>
@@ -26,4 +25,4 @@
 
 The AVBook is open-source software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 
-gyym.avbook.bt.01
+https://github.com/AeroYoung
