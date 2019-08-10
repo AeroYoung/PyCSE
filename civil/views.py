@@ -1,8 +1,11 @@
+from django.contrib.auth.decorators import login_required
 from django.shortcuts import render
 
 from civil.models import Topic, PracticeStatistic
+from mysite import settings
 
 
+@login_required(login_url=settings.LOGIN_URL)
 def index(request):
     # 渲染主页
 

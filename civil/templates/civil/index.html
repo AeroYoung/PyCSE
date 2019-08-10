@@ -13,10 +13,11 @@
   <meta name="author" content="">
 
   <title>控制台</title>
-
+    <link rel="shortcut icon" href="https://img.icons8.com/color/48/000000/python.png" type="image/vnd.microsoft.icon">
+    <link rel="icon" href="https://img.icons8.com/color/48/000000/python.png" type="image/vnd.microsoft.icon">
   <!-- Custom fonts for this template-->
   <link href="https://cdn.bootcss.com/font-awesome/5.10.0-12/css/all.min.css" rel="stylesheet">
-{#  <link href="{% static 'rapid/js/font-awesome/css/font-awesome.min.css' %}" rel="stylesheet">#}
+  {#  <link href="{% static 'rapid/js/font-awesome/css/font-awesome.min.css' %}" rel="stylesheet">#}
   <!-- Page level plugin CSS-->
   <link href="https://cdn.bootcss.com/datatables/1.10.19/css/dataTables.bootstrap4.min.css" rel="stylesheet">
   <!-- Custom styles for this template-->
@@ -28,7 +29,7 @@
 
     <nav class="navbar navbar-expand navbar-dark bg-dark static-top">
 
-        <a class="navbar-brand mr-1" href="\">Basis R&D : {{ user.username }}</a>
+        <a class="navbar-brand mr-1" href="\">PyCSE</a>
 
         <button class="btn btn-link btn-sm text-white order-1 order-sm-0" id="sidebarToggle" href="#">
           <i class="fas fa-bars"></i>
@@ -85,7 +86,7 @@
                     </a>
                     <div class="dropdown-divider"></div>
                     <a class="dropdown-item" href="{% url 'users:edit_user' user.username  %}"><i class="fa fa-cog" aria-hidden="true"></i> 设置</a>
-                    <a class="dropdown-item" href="#"><i class="fa fa-list-ul" aria-hidden="true"></i> 日志</a>
+                    <a class="dropdown-item" href="admin"><i class="fa fa-list-ul" aria-hidden="true"></i> 管理后台</a>
                     <div class="dropdown-divider"></div>
                     <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">
                       <i class="fa fa-sign-out-alt" ></i> 退出</a>
@@ -237,13 +238,11 @@
 
         <!-- 单项统计 DataTable -->
         <div id="Table" class="card mb-3">
-          <div class="card-header">
-            <i class="fas fa-table"></i>
-            单项统计</div>
+          <div class="card-header"><i class="fas fa-table"></i>单项统计</div>
           <div class="card-body">
             <div class="table-responsive">
               <table class="table table-bordered table-hover"
-                     id="dataTable" > <!--width="100%" cellspacing="0"-->
+                     id="dataTable" width="100%" cellspacing="0"> <!--width="100%" cellspacing="0"-->
                 <thead>
                   <tr>
                     <th>题型</th>
@@ -327,7 +326,7 @@
         <footer class="sticky-footer">
         <div class="container my-auto">
           <div class="copyright text-center my-auto">
-            <span>Copyright © Your Website 2019</span>
+              <span>Copyright © <a href="https://github.com/AeroYoung">AeroYoung</a> 2019</span>
           </div>
         </div>
         </footer>
