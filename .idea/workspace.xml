@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bd84bec0-c4ea-4b43-829e-abcae10de978" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Rapid/templates/Rapid/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Rapid/templates/Rapid/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/civil/static/civil/js/demo/datatables-demo.js" beforeDir="false" afterPath="$PROJECT_DIR$/civil/static/civil/js/demo/datatables-demo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/civil/templates/civil/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/civil/templates/civil/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/civil/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/civil/views.py" afterDir="false" />
-    </list>
+    <list default="true" id="bd84bec0-c4ea-4b43-829e-abcae10de978" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,7 +129,7 @@
       <workItem from="1564990724501" duration="7562000" />
       <workItem from="1565052060638" duration="54326000" />
       <workItem from="1565171510853" duration="38028000" />
-      <workItem from="1565311130106" duration="32332000" />
+      <workItem from="1565311130106" duration="32646000" />
     </task>
     <task id="LOCAL-00001">
       <created>1565171640993</created>
@@ -207,7 +201,14 @@
       <option name="project" value="LOCAL" />
       <updated>1565345640694</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="优化主页显示">
+      <created>1565400737562</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1565400737562</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -261,6 +262,7 @@
     <MESSAGE value="单项统计" />
     <MESSAGE value="README" />
     <MESSAGE value="gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="gitignore" />
+    <MESSAGE value="优化主页显示" />
+    <option name="LAST_COMMIT_MESSAGE" value="优化主页显示" />
   </component>
 </project>
