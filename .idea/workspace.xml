@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bd84bec0-c4ea-4b43-829e-abcae10de978" name="Default Changelist" comment="" />
+    <list default="true" id="bd84bec0-c4ea-4b43-829e-abcae10de978" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,7 +133,9 @@
       <workItem from="1564990724501" duration="7562000" />
       <workItem from="1565052060638" duration="54326000" />
       <workItem from="1565171510853" duration="38028000" />
-      <workItem from="1565311130106" duration="32646000" />
+      <workItem from="1565311130106" duration="33883000" />
+      <workItem from="1565411774242" duration="1646000" />
+      <workItem from="1565581141360" duration="2240000" />
     </task>
     <task id="LOCAL-00001">
       <created>1565171640993</created>
@@ -208,7 +214,14 @@
       <option name="project" value="LOCAL" />
       <updated>1565400737562</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="优化主页显示">
+      <created>1565401049877</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1565401049877</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -231,6 +244,7 @@
                   </entry>
                 </map>
               </option>
+              <option name="COLUMN_ORDER" />
             </State>
           </value>
         </entry>
